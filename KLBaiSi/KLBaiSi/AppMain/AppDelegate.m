@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KLMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    KLMainViewController *viewController = [[KLMainViewController alloc] init];
+    //设置当前window的主控制器
+    self.window.rootViewController = viewController;
+    //设置主界面并显示
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

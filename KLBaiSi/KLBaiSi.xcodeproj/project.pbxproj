@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		839F2339201075D8000282F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2338201075D8000282F6 /* AppDelegate.m */; };
-		839F233C201075D8000282F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F233B201075D8000282F6 /* ViewController.m */; };
-		839F233F201075D8000282F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839F233D201075D8000282F6 /* Main.storyboard */; };
 		839F2341201075D8000282F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839F2340201075D8000282F6 /* Assets.xcassets */; };
-		839F2344201075D8000282F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839F2342201075D8000282F6 /* LaunchScreen.storyboard */; };
 		839F2347201075D8000282F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2346201075D8000282F6 /* main.m */; };
 		839F2351201075D8000282F6 /* KLBaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2350201075D8000282F6 /* KLBaiSiTests.m */; };
 		839F235C201075D8000282F6 /* KLBaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F235B201075D8000282F6 /* KLBaiSiUITests.m */; };
+		83E7AB18201B822000306220 /* KLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7AB17201B822000306220 /* KLMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		837D00AE20148A1500C50B78 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		839F2334201075D8000282F6 /* KLBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839F2337201075D8000282F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		839F2338201075D8000282F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		839F233A201075D8000282F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		839F233B201075D8000282F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		839F233E201075D8000282F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		839F2340201075D8000282F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		839F2343201075D8000282F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839F2345201075D8000282F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839F2346201075D8000282F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		839F234C201075D8000282F6 /* KLBaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +46,8 @@
 		839F2357201075D8000282F6 /* KLBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839F235B201075D8000282F6 /* KLBaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaiSiUITests.m; sourceTree = "<group>"; };
 		839F235D201075D8000282F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		839F236B2011826F000282F6 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/Main.strings"; sourceTree = "<group>"; };
-		839F236C2011826F000282F6 /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		83E7AB16201B822000306220 /* KLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLMainViewController.h; sourceTree = "<group>"; };
+		83E7AB17201B822000306220 /* KLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		837D00AD20148A1400C50B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837D00AE20148A1500C50B78 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		839F232B201075D8000282F6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +90,7 @@
 				839F234F201075D8000282F6 /* KLBaiSiTests */,
 				839F235A201075D8000282F6 /* KLBaiSiUITests */,
 				839F2335201075D8000282F6 /* Products */,
+				837D00AD20148A1400C50B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +107,10 @@
 		839F2336201075D8000282F6 /* KLBaiSi */ = {
 			isa = PBXGroup;
 			children = (
-				839F2337201075D8000282F6 /* AppDelegate.h */,
-				839F2338201075D8000282F6 /* AppDelegate.m */,
-				839F233A201075D8000282F6 /* ViewController.h */,
-				839F233B201075D8000282F6 /* ViewController.m */,
-				839F233D201075D8000282F6 /* Main.storyboard */,
-				839F2340201075D8000282F6 /* Assets.xcassets */,
-				839F2342201075D8000282F6 /* LaunchScreen.storyboard */,
-				839F2345201075D8000282F6 /* Info.plist */,
-				839F2346201075D8000282F6 /* main.m */,
+				83E7AB12201B7E5600306220 /* AppMain */,
+				83E7AB13201B7E9800306220 /* Modules */,
+				83E7AB14201B7EE600306220 /* Utils */,
+				83E7AB15201B7EF000306220 /* Base */,
 			);
 			path = KLBaiSi;
 			sourceTree = "<group>";
@@ -132,6 +131,41 @@
 				839F235D201075D8000282F6 /* Info.plist */,
 			);
 			path = KLBaiSiUITests;
+			sourceTree = "<group>";
+		};
+		83E7AB12201B7E5600306220 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				839F2346201075D8000282F6 /* main.m */,
+				839F2337201075D8000282F6 /* AppDelegate.h */,
+				839F2338201075D8000282F6 /* AppDelegate.m */,
+				839F2340201075D8000282F6 /* Assets.xcassets */,
+				839F2345201075D8000282F6 /* Info.plist */,
+				83E7AB16201B822000306220 /* KLMainViewController.h */,
+				83E7AB17201B822000306220 /* KLMainViewController.m */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		83E7AB13201B7E9800306220 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		83E7AB14201B7EE600306220 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		83E7AB15201B7EF000306220 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,12 +230,24 @@
 		839F232C201075D8000282F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KL;
+				KnownAssetTags = (
+					group,
+				);
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = mukekeheart;
 				TargetAttributes = {
 					839F2333201075D8000282F6 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					839F234B201075D8000282F6 = {
 						CreatedOnToolsVersion = 9.2;
@@ -240,9 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839F2344201075D8000282F6 /* LaunchScreen.storyboard in Resources */,
 				839F2341201075D8000282F6 /* Assets.xcassets in Resources */,
-				839F233F201075D8000282F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839F233C201075D8000282F6 /* ViewController.m in Sources */,
 				839F2347201075D8000282F6 /* main.m in Sources */,
+				83E7AB18201B822000306220 /* KLMainViewController.m in Sources */,
 				839F2339201075D8000282F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,27 +348,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		839F233D201075D8000282F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				839F233E201075D8000282F6 /* Base */,
-				839F236B2011826F000282F6 /* zh-Hans-CN */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		839F2342201075D8000282F6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				839F2343201075D8000282F6 /* Base */,
-				839F236C2011826F000282F6 /* zh-Hans-CN */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		839F235E201075D8000282F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -357,6 +380,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -413,6 +437,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -437,12 +462,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KLBaiSi/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/AppMain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjsc.keli.KLBaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,12 +479,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KLBaiSi/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/AppMain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjsc.keli.KLBaiSi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
