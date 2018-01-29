@@ -10,9 +10,8 @@
 		839F2339201075D8000282F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2338201075D8000282F6 /* AppDelegate.m */; };
 		839F2341201075D8000282F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839F2340201075D8000282F6 /* Assets.xcassets */; };
 		839F2347201075D8000282F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2346201075D8000282F6 /* main.m */; };
-		839F2351201075D8000282F6 /* KLBaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F2350201075D8000282F6 /* KLBaiSiTests.m */; };
-		839F235C201075D8000282F6 /* KLBaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F235B201075D8000282F6 /* KLBaiSiUITests.m */; };
 		83E7AB18201B822000306220 /* KLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7AB17201B822000306220 /* KLMainViewController.m */; };
+		83E7AB1A201C535200306220 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E7AB19201C535200306220 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		837D00AE20148A1500C50B78 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		83154F59201EB8D60064B385 /* KLBaiSi_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaiSi_PrefixHeader.pch; sourceTree = "<group>"; };
 		839F2334201075D8000282F6 /* KLBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839F2337201075D8000282F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		839F2338201075D8000282F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,13 +40,10 @@
 		839F2345201075D8000282F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839F2346201075D8000282F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		839F234C201075D8000282F6 /* KLBaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		839F2350201075D8000282F6 /* KLBaiSiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaiSiTests.m; sourceTree = "<group>"; };
-		839F2352201075D8000282F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839F2357201075D8000282F6 /* KLBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		839F235B201075D8000282F6 /* KLBaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaiSiUITests.m; sourceTree = "<group>"; };
-		839F235D201075D8000282F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E7AB16201B822000306220 /* KLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLMainViewController.h; sourceTree = "<group>"; };
 		83E7AB17201B822000306220 /* KLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLMainViewController.m; sourceTree = "<group>"; };
+		83E7AB19201C535200306220 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E7AB1A201C535200306220 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +72,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83154F58201EB7650064B385 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				839F2345201075D8000282F6 /* Info.plist */,
+				839F2340201075D8000282F6 /* Assets.xcassets */,
+				83154F59201EB8D60064B385 /* KLBaiSi_PrefixHeader.pch */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		83154F5A201EB9760064B385 /* KLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KLTabBar;
+			sourceTree = "<group>";
+		};
 		837D00AD20148A1400C50B78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				837D00AE20148A1500C50B78 /* CoreFoundation.framework */,
+				83E7AB19201C535200306220 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				839F2336201075D8000282F6 /* KLBaiSi */,
-				839F234F201075D8000282F6 /* KLBaiSiTests */,
-				839F235A201075D8000282F6 /* KLBaiSiUITests */,
 				839F2335201075D8000282F6 /* Products */,
 				837D00AD20148A1400C50B78 /* Frameworks */,
 			);
@@ -109,28 +121,11 @@
 			children = (
 				83E7AB12201B7E5600306220 /* AppMain */,
 				83E7AB13201B7E9800306220 /* Modules */,
+				83154F58201EB7650064B385 /* SupportFiles */,
 				83E7AB14201B7EE600306220 /* Utils */,
 				83E7AB15201B7EF000306220 /* Base */,
 			);
 			path = KLBaiSi;
-			sourceTree = "<group>";
-		};
-		839F234F201075D8000282F6 /* KLBaiSiTests */ = {
-			isa = PBXGroup;
-			children = (
-				839F2350201075D8000282F6 /* KLBaiSiTests.m */,
-				839F2352201075D8000282F6 /* Info.plist */,
-			);
-			path = KLBaiSiTests;
-			sourceTree = "<group>";
-		};
-		839F235A201075D8000282F6 /* KLBaiSiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				839F235B201075D8000282F6 /* KLBaiSiUITests.m */,
-				839F235D201075D8000282F6 /* Info.plist */,
-			);
-			path = KLBaiSiUITests;
 			sourceTree = "<group>";
 		};
 		83E7AB12201B7E5600306220 /* AppMain */ = {
@@ -139,8 +134,6 @@
 				839F2346201075D8000282F6 /* main.m */,
 				839F2337201075D8000282F6 /* AppDelegate.h */,
 				839F2338201075D8000282F6 /* AppDelegate.m */,
-				839F2340201075D8000282F6 /* Assets.xcassets */,
-				839F2345201075D8000282F6 /* Info.plist */,
 				83E7AB16201B822000306220 /* KLMainViewController.h */,
 				83E7AB17201B822000306220 /* KLMainViewController.m */,
 			);
@@ -150,6 +143,7 @@
 		83E7AB13201B7E9800306220 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				83154F5A201EB9760064B385 /* KLTabBar */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -321,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839F2351201075D8000282F6 /* KLBaiSiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839F235C201075D8000282F6 /* KLBaiSiUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +457,7 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/AppMain/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjsc.keli.KLBaiSi;
@@ -482,7 +474,7 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/AppMain/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/KLBaiSi/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjsc.keli.KLBaiSi;
